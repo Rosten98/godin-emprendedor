@@ -1,0 +1,17 @@
+I"M<p><img src="/assets/img/hero-img.jpg" alt="imagen principal" class="hero-img" width="100%" height="60%" /></p>
+<div class="main wrapper">
+
+    <h2>Comienza tu <span>emprendimiento</span></h2>
+    <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+    <button class="main-btn" type="button" name="button">Ver servicios</button>
+    <button class="secondary-btn" type="button" name="button">Ver cursos</button>
+</div>
+
+<section class="blog-section">
+
+</section>
+
+<section class="course-section">
+
+</section>
+:ET

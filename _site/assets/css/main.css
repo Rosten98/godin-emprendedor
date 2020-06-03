@@ -1,0 +1,65 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@900&display=swap");
+html, body { height: 100vh; width: 100vw; padding: 0; margin: 0; }
+
+body { background: #333333; color: #fff; font-family: "Lato", sans-serif; }
+
+ul { list-style-type: none; padding: 0; margin: 0; line-height: 1.8em; }
+
+a { text-decoration: none; color: unset; }
+
+button { background-color: #8B2121; border: none; color: white; border-radius: 5px; padding: .8em; margin: .5em; width: 100%; cursor: pointer; }
+
+.main-btn { font-weight: bold; font-size: 1em; }
+
+.secondary-btn { background-color: unset; border: 1px solid white; font-size: 1em; }
+
+.wrapper { padding: 0 1.2em; }
+
+.icon { cursor: pointer; height: 2em; }
+
+.black-bg { background-color: #222222; }
+
+span { color: #CE3434; }
+
+header { display: flex; align-items: center; justify-content: space-between; padding: 1.2em; }
+
+.menu-btn { width: 28px; }
+
+.open-nav { visibility: unset; opacity: 1; transition: all .2s; transform: translateX(0); }
+
+nav { background: #111111; position: absolute; display: flex; justify-content: center; align-items: center; top: 0; left: 0; height: 100vh; width: 100vw; visibility: hidden; opacity: 0; transition: all .4s; }
+
+nav ul { list-style-type: none; width: 100%; text-align: center; padding: 0; }
+
+nav ul li { width: 100%; font-size: 1.2em; padding: 1.4em 0; text-transform: uppercase; font-weight: bold; }
+
+.active a { color: #CE3434; }
+
+.close-btn { position: absolute; color: white; height: 2em; top: 1.2em; right: 1.2em; }
+
+.hero-img { position: absolute; z-index: -1; top: 3em; -webkit-filter: brightness(30%); /* Safari 6.0 - 9.0 */ filter: brightness(30%); }
+
+.main { display: flex; flex-direction: column; align-items: center; text-align: center; }
+
+.main h2 { text-transform: uppercase; font-weight: 900; text-align: center; width: 70%; }
+
+.main p { font-size: 1.1em; line-height: 2.2em; }
+
+.main button { margin-top: 1em; }
+
+footer { padding: 1.2em; }
+
+footer h3 { color: #CE3434; margin: 0; padding: 0; margin-bottom: .5em; }
+
+footer .footer-header { display: flex; justify-content: space-between; }
+
+footer span { color: #CE3434; text-decoration: underline; }
+
+footer p { margin: 1.5em 0; }
+
+footer a { text-decoration: underline; }
+
+.fab { font-size: 2em; margin-left: .5em; }
+
+/*# sourceMappingURL=main.css.map */
